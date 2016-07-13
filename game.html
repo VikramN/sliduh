@@ -1,6 +1,7 @@
 <html>
 
 <head>
+    <title>Sliduh!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="game.js"></script>
     <script src="gui.js"></script>
@@ -37,6 +38,16 @@
             margin: 10px;
         }
         
+        .nametag {
+            font-weight: bold;
+            font-family: monospace;
+            font-size: 18px;
+            border: 1px solid #222;
+            border-radius: 5px;
+            padding: 5px;
+            background-color: #4183c4;
+        }
+        
     </style>
 </head>
 
@@ -49,26 +60,17 @@
             <div class="links">
                 <div>
                     <!-- Place this tag where you want the button to render. -->
-                    <a class="github-button" href="https://github.com/VikramN/Pattern/fork" data-icon="octicon-repo-forked" data-style="mega"
-                    data-count-href="/VikramN/Pattern/network" data-count-api="/repos/VikramN/Pattern#forks_count" data-count-aria-label="# forks on GitHub"
-                    aria-label="Fork VikramN/Pattern on GitHub">Fork Me</a>
+                    <a class="github-button" href="https://github.com/VikramN/sliduh" data-icon="octicon-repo-forked" data-style="mega"
+                    data-count-href="/VikramN/sliduh/network" data-count-api="/repos/VikramN/sliduh#forks_count" data-count-aria-label="# forks on GitHub"
+                    aria-label="Fork VikramN/sliduh on GitHub">Fork Me</a>
                 </div>
                 <div>
                     <a class="github-button" href="https://github.com/VikramN" data-style="mega" data-count-href="/VikramN/followers" data-count-api="/users/VikramN#followers"
                     data-count-aria-label="# followers on GitHub" aria-label="Follow @VikramN on GitHub">Follow Me</a>
                     <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
                 </div>
-                <div>
-                    <a href="https://twitter.com/TheVikO_o" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @TheVikO_o</a>
-                    <script>
-                        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-                    </script>
-                </div>
-                <div>
-                    <a href="https://twitter.com/share" class="twitter-share-button" data-via="TheVikO_o" data-size="large" data-dnt="true">Tweet</a>
-                    <script>
-                        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-                    </script>
+                <div class="nametag">
+                    Sliduh! By Vikram
                 </div>
             </div>
             <div id="gui"></div>
