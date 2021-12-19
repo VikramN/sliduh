@@ -1,11 +1,9 @@
 # Sliduh!
 HTML5 Number / Picture Sliding Puzzle written in Typescript
 
-##Demo
+## Demo
 
 Play @ http://vikramn.github.io/sliduh/
-
-Follow me on Twitter @TheVikO_o
 
 ## Sounds
 
